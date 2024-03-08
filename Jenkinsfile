@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Compile the .cpp file using shell script
-                    sh "g++ -o your_executable PES1UG21CS314-1.cpp"
+                    sh "g++ -o your_executable PES1UG21CS314-2.cpp"
                 }
             }
         }
